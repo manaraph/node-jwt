@@ -1,0 +1,37 @@
+{
+  "name": "node-jwt",
+  "version": "1.0.0",
+  "description": "Server Side JSON Web Token Implementation with PostgreSQL and Node.",
+  "main": "index.js",
+  "directories": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "test"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "dotenv": "^8.2.0",
+    "jwt-simple": "^0.5.6",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manaraph/node-jwt.git"
+  },
+  "author": "Manasseh Omachonu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manaraph/node-jwt/issues"
+  },
+  "homepage": "https://github.com/manaraph/node-jwt#readme"
+}
